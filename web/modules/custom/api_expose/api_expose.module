@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function api_expose_theme() {
+    return [
+        'view_json_button' => [
+            'variables' => [
+                'nid' => NULL,
+            ]
+        ],
+    ];
+}

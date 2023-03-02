@@ -1,0 +1,18 @@
+uuid: 5a073e64-4c23-47a6-8ac9-a9a064f0c9ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - api_expose
+    - serialization
+    - user
+id: api_expose_listing_resource
+plugin_id: api_expose_listing_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

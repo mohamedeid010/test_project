@@ -1,0 +1,5 @@
+services:
+  serializer.json_ncoder:
+    class: Drupal\api_base_handler\Encoder\JsonEncoder
+    tags:
+    - { name: encoder, priority: 10, format: 'json' }

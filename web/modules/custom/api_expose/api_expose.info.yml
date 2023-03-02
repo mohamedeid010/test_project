@@ -1,0 +1,10 @@
+name: 'API Expose'
+type: module
+description: 'Module to export APIs for external usage.'
+core: 8.x
+package: 'Custom'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:rest
+  - restui
+  - api_base_handler

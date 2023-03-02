@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function pdf_print_button_theme() {
+    return [
+        'print_pdf_button' => [
+            'variables' => [
+                'nid' => NULL,
+            ]
+        ],
+    ];
+}

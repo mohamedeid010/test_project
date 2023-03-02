@@ -1,0 +1,6 @@
+name: 'PDF print button'
+type: module
+description: 'Module to create custom block contains PDF print link to node.'
+core: 8.x
+package: 'Custom'
+core_version_requirement: ^8 || ^9
